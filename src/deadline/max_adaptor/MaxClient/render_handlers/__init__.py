@@ -4,6 +4,7 @@ from .art_handler import ArtHandler
 from .corona_handler import CoronaHandler
 from .default_max_handler import DefaultMaxHandler
 from .vray_handler import VrayHandler
+from .redshift_handler import RedshiftHandler
 
 __all__ = ["DefaultMaxHandler", "get_render_handler"]
 
